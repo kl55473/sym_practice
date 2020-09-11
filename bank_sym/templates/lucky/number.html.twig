@@ -1,0 +1,20 @@
+{% extends 'base.html.twig'%}
+
+{% block title%}Lucky {{number}} {%endblock%}
+{% block body %}
+<h2>{{number}}</h2>
+
+{# oh,I am just a comment hiding here#}
+
+<div>
+    welcome to my word
+</div>
+
+<h4>Answers({{answers|length}})</h4>
+
+<ul>
+    {% for answer in answers%}
+        <li>{{answer}}</li>
+    {% endfor%}
+</ul>
+{% endblock %}
