@@ -1,6 +1,13 @@
 # sym_practice
+*composer安裝：
 
-symfony安裝：
+mac版：
+https://ithelp.ithome.com.tw/articles/10190770?sc=iThelpR
+
+window版:
+https://laravel.tw/docs/4.2
+
+*symfony安裝：
 
 https://dotblogs.com.tw/hochile/2020/03/18/092753
 https://chenuin.blogspot.com/2019/02/symfonysetup.html
@@ -12,7 +19,9 @@ MAC版:
 Select version();
 
 
-window版:還要再查詢
+window版:
+cd C:\MAMP\bin\mysql\bin
+
 
 
 執行：
