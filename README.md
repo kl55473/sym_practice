@@ -1,6 +1,7 @@
 # sym_practice
 
 symfony安裝：
+
 https://dotblogs.com.tw/hochile/2020/03/18/092753
 https://chenuin.blogspot.com/2019/02/symfonysetup.html
 
@@ -14,7 +15,7 @@ Select version();
 window版:
 
 
-執行：./bin/console server:run
+執行：./bin/console server:run(/bin/console server:run)
 
 套件
 composer require symfony/web-server-bundle --dev ^4.4.2
