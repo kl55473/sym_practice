@@ -1,0 +1,13 @@
+*PSR-1：基本程式寫作標準
+
+https://events.storm.mg/codingstyle/coding_style/php/psr-2.html
+
+1.檔案只能使用 <?php 和 <?= 標籤
+2.檔案字元編碼只能用 UTF-8 檔首無 BOM
+3.檔案應該只宣告符號 (class、function、constant)或是造成副作用(例如產生輸出、修改 .ini 檔之類)兩者擇一，不應該兩個都做
+4.Namespace 和 Class 必須遵循"自動載入(PSR-4)"的規範
+5.Class 命名必須用首字母大寫駝峰式(StudlCaps)
+6.Class 常數必須全部用大寫字母命名，多個單字之間用 _ (下底線)連接
+7.Method 命名必須用首字母小寫駝峰式(camelCase)
+
+*
